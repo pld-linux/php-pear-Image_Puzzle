@@ -35,8 +35,8 @@ In PEAR status of this package is: %{_status}.
 PEAR::Image_Puzzle dzieli obrazek na czê¶ci uk³adanki:
 - dostarcza kilka styli brzegów
 - pozwala na zapisanie ka¿dej czê¶ci w osobnym pliku
-- pozwala uzyskanie informacji o wspó³rzêdnej ka¿dej z czê¶ci wzglêdem
-  oryginalnego obrazka
+- pozwala na uzyskanie informacji o wspó³rzêdnej ka¿dej z czê¶ci
+  wzglêdem oryginalnego obrazka
 
 Ta klasa ma w PEAR status: %{_status}.
 
