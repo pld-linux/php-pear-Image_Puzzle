@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	Puzzle
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	Image_Puzzle
 
 Summary:	%{_pearname} - generates puzzle pieces from image file
 Summary(pl):	%{_pearname} - generowanie czê¶ci uk³adanki na podstawie obrazka
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
+Version:	0.2.1
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4242c6d96992321fdde0b9143e12219e
+# Source0-md5:	2f35d75d516b8e60af00137823ba3a5a
 URL:		http://pear.php.net/package/Image_Puzzle/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
