@@ -5,7 +5,7 @@
 %define		_pearname	Image_Puzzle
 
 Summary:	%{_pearname} - generates puzzle pieces from image file
-Summary(pl):	%{_pearname} - generowanie cz�ci uk�adanki na podstawie obrazka
+Summary(pl.UTF-8):   %{_pearname} - generowanie części układanki na podstawie obrazka
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
 Release:	1
@@ -32,12 +32,12 @@ PEAR::Image_Puzzle divides an image to puzzle pieces.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-PEAR::Image_Puzzle dzieli obrazek na cz�ci uk�adanki:
-- dostarcza kilka styli brzeg�w
-- pozwala na zapisanie ka�dej cz�ci w osobnym pliku
-- pozwala na uzyskanie informacji o wsp�rz�dnej ka�dej z cz�ci
-  wzgl�dem oryginalnego obrazka
+%description -l pl.UTF-8
+PEAR::Image_Puzzle dzieli obrazek na części układanki:
+- dostarcza kilka styli brzegów
+- pozwala na zapisanie każdej części w osobnym pliku
+- pozwala na uzyskanie informacji o współrzędnej każdej z części
+  względem oryginalnego obrazka
 
 Ta klasa ma w PEAR status: %{_status}.
 
