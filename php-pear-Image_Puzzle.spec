@@ -5,7 +5,7 @@
 %define		_pearname	Image_Puzzle
 
 Summary:	%{_pearname} - generates puzzle pieces from image file
-Summary(pl.UTF-8):   %{_pearname} - generowanie części układanki na podstawie obrazka
+Summary(pl.UTF-8):	%{_pearname} - generowanie części układanki na podstawie obrazka
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
 Release:	1
