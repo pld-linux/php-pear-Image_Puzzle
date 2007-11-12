@@ -8,7 +8,7 @@ Summary:	%{_pearname} - generates puzzle pieces from image file
 Summary(pl.UTF-8):	%{_pearname} - generowanie części układanki na podstawie obrazka
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -19,7 +19,7 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-Image_Color2 >= 0.1.0
-Requires:	php-pear-PEAR >= 1:1.4
+Requires:	php-pear-PEAR-core >= 1:1.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
