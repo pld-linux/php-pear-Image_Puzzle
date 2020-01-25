@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Image_Puzzle
 Summary:	%{_pearname} - generates puzzle pieces from image file
